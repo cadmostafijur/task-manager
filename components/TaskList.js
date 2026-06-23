@@ -127,7 +127,7 @@ export default function TaskList({
                 id="task-filter"
                 value={filter}
                 onChange={(e) => setFilter(e.target.value)}
-                className="w-full cursor-pointer rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 shadow-sm focus:border-violet-300 focus:outline-none focus:ring-4 focus:ring-violet-100 sm:min-w-[10rem] dark:border-slate-600 dark:bg-slate-700 dark:text-slate-200 dark:focus:ring-violet-900"
+                className="w-full cursor-pointer rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm text-slate-700 shadow-sm focus:border-violet-300 focus:outline-none focus:ring-4 focus:ring-violet-100 sm:min-w-40 dark:border-slate-600 dark:bg-slate-700 dark:text-slate-200 dark:focus:ring-violet-900"
               >
                 {FILTERS.map((f) => (
                   <option key={f.value} value={f.value}>
